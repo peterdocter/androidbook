@@ -11,10 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   preface	
    tutor/index
    tricks/index
-   sdk/index
    library/index
    opensource/index
    publish/index
