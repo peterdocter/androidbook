@@ -11,27 +11,27 @@
 
    greendroid
 
-   afinal
+   afinal ---
 
-   sugar
+   sugar ---
 
-   slidemune
+   slidemenu
 
-   view_ioc
+   androidanotation
 
-   test
+   view_ioc ---
 
-   game_engine
+   test ---
 
-   jsoup
+   game_engine ---
 
-   async_http
+   jsoup ---
 
-   all_in_one
+   asynchttp
 
-   ui
+   all_in_one ---
 
-   db4o
+   db4o ---
 
-   zxing
+   zxing ---
 

@@ -19,6 +19,11 @@ Contents:
    opensource/index
    publish/index
 
+http://baidu.com
+
+.. image:: https://lh6.googleusercontent.com/-oQoXEMJcO0E/Ted7UeGFemI/AAAAAAAAMvY/HpfJVIVE6-4/s288/gd9.png
+
+
 
 Indices and tables
 ==================

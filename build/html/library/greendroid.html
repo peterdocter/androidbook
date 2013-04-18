@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Android UI库 greendroid &mdash; Android Programming: Exploring Android SDK and Using Open Source Library 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Android Programming: Exploring Android SDK and Using Open Source Library 0.0.1 documentation" href="../index.html" />
+    <link rel="up" title="使用第三方库" href="index.html" />
+    <link rel="next" title="优秀开源App" href="../opensource/index.html" />
+    <link rel="prev" title="使用ViewPagerIndicator集成分页指示器" href="vpi.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../opensource/index.html" title="优秀开源App"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="vpi.html" title="使用ViewPagerIndicator集成分页指示器"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">Android Programming: Exploring Android SDK and Using Open Source Library 0.0.1 documentation</a> &raquo;</li>
+          <li><a href="index.html" accesskey="U">使用第三方库</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="android-ui-greendroid">
+<h1>Android UI库 greendroid<a class="headerlink" href="#android-ui-greendroid" title="Permalink to this headline">¶</a></h1>
+<img alt="https://a248.e.akamai.net/camo.github.com/3e7eb43ec0f84e34784622436cb086aabded7707/687474703a2f2f6c68362e67677068742e636f6d2f5f4f484f34793859635162732f545146515466617a4d32492f41414141414141414d70512f6c675070494b496d645a772f733238382f6764352e706e67" src="https://a248.e.akamai.net/camo.github.com/3e7eb43ec0f84e34784622436cb086aabded7707/687474703a2f2f6c68362e67677068742e636f6d2f5f4f484f34793859635162732f545146515466617a4d32492f41414141414141414d70512f6c675070494b496d645a772f733238382f6764352e706e67" />
+<ul class="simple">
+<li>Github Star : 1600+</li>
+<li>推荐指数：★★★</li>
+<li>评价: 效果还好，但是目前没有持续更新。</li>
+<li>Github : <a class="reference external" href="https://github.com/cyrilmottier/GreenDroid">https://github.com/cyrilmottier/GreenDroid</a></li>
+<li>作者的博客文章 : <a class="reference external" href="http://cyrilmottier.com/2010/05/14/introduction-to-the-greendroid-library/">http://cyrilmottier.com/2010/05/14/introduction-to-the-greendroid-library/</a></li>
+</ul>
+<p>一个比较有名的UI库，提供了一些比较好用漂亮的UI控件。</p>
+<p>不过根据Github的Commit记录 <a class="reference external" href="https://github.com/cyrilmottier/GreenDroid/commits/master">https://github.com/cyrilmottier/GreenDroid/commits/master</a> ，上一次代码核心功能更新是2011年10月份的事情了。</p>
+<p>另外作者是从API level4开始开发这个库的，当时Android SDK还没有ActionBar这个东西。。。所以作者自定义的ActionBar会与SDK的ActionBar控件命名冲突，需要手动解决。。解决方法是，把所有getActionBar方法重构为getGDActionBar（这个名字可以自己起）即可</p>
+<p>另外我在处理Google Map API的时候也出现了一些小问题。。</p>
+<p>我个人建议是，学习里面的源码，使用或改造一些适合自己实际使用的类。OSChina的Android客户端就是这样干的。。（参见 <a class="reference external" href="https://github.com/oschina/android-app">https://github.com/oschina/android-app</a> 源码）</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="vpi.html"
+                        title="previous chapter">使用ViewPagerIndicator集成分页指示器</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../opensource/index.html"
+                        title="next chapter">优秀开源App</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/library/greendroid.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../opensource/index.html" title="优秀开源App"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="vpi.html" title="使用ViewPagerIndicator集成分页指示器"
+             >previous</a> |</li>
+        <li><a href="../index.html">Android Programming: Exploring Android SDK and Using Open Source Library 0.0.1 documentation</a> &raquo;</li>
+          <li><a href="index.html" >使用第三方库</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Lin Xiangyu.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

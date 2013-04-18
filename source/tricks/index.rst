@@ -5,6 +5,9 @@ Android 开发小技巧
 .. toctree::
    :maxdepth: 2
 
+
+   sdk_doc
+
    logcat-color
 
    adb
@@ -28,4 +31,6 @@ Android 开发小技巧
    monkey
 
    ddms
+
+   sqlite3
 
