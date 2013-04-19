@@ -61,3 +61,8 @@
 
 	    // [...]
 	}
+
+
+不过也有很多坑。。。
+* 依赖JDK1.6的注解处理，需要在IDE里面设置
+* 对于MyActivity，AndroidAnotation会生成子类MyActivity_,所以你需要用MyActivity代替，IDE的编辑器会报错很不爽。。。
