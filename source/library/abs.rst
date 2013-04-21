@@ -15,4 +15,14 @@ Android 从 3.0版本引入ActionBar的概念，但是4.0版本才完善。Actio
 使用起来非常方便，Activity继承自SherlockActivity, 然后也难怪getSupportXXX代替Android原来的API就可以了。比如，原来用getActionBar的，现在就用getSupportActionBar。
 
 
+<http://actionbarsherlock.com/>
+
+ActionBarSherlock是Android Support Library的扩展，用一样的API，在Android所有版本中实现ActionBar的效果（ActionBar从4.0版本引入Android，之前的版本要实现ActionBar，必须另外手动定义ActionBar界面）
+
+使用方法：
+
+在Activity中继承Sherlock开头的类，如SherlockActivity,SherlockFragmentActivity。调用 getSupportActionBar代替getActionBar()。
+
+
+
 
