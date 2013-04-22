@@ -1,6 +1,9 @@
 应用发布
 =====
 
+
+http://developer.android.com/tools/publishing/preparing.html
+
 .. toctree::
    :maxdepth: 2
 
